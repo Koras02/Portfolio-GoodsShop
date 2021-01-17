@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const FormHeaderWrapper = styled.div`
   width:100%;
-  height:200px;
+  max-width:100%;
+  max-height:2000px;
   border:1px solid #000;
-  background:gray;
-
- 
+  display:inline-block;
+  float:left;
 `;
 
 export const FormHeaderBoard = styled.div`
@@ -15,19 +15,22 @@ export const FormHeaderBoard = styled.div`
   background:#fff;
   color:#000;
   font:bold 24px/30px arial;
+  overflow:auto;
 `;
 export const FormHeaderBoardH1 = styled.div`
    font:bold 30px/34px arial;
    margin: 70px auto;
    text-align:center;
    color:pink;
+   overflow:auto;
 `
 
 
 export const FormHeaderMenuWrapper = styled.div`
 height:600px;
 border:2px solid #000;
-background:yellow;
+background:#fff;
+overflow:hidden;
 `;
 
 export const FormHeaderH1 = styled.div`
@@ -39,10 +42,26 @@ export const FormHeaderH1 = styled.div`
 `;
 
 export const FormHeaderP = styled.div`
+  height:300px;
   display:inline-flex;
-  margin:90px 10px 10px 170px;
   border:1px solid #000;
-  width:10%;
-  height:200px;
+  justify-content:center;
+  float:left;
+  margin-left:5px;
+  align-items: center;
+  padding: 0 5%;
+  position:relative;
+  left:18%;
+
+  @media screen and (max-width:1540px) {
+    margin:50px 10px -10px;
+  }
+
+  @media screen and (max-width:1024px) {
+    width:10%;
+    height:200px;
+    padding:20px;
+    margin-right:-20px;
+  }
 `;
 

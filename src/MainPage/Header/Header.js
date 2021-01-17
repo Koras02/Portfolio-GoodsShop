@@ -7,7 +7,7 @@ import {
     HeaderRightInput,
     HeaderRightInput1
     } from './HeaderStyle'
-import Mainvisual from './MainVisual/Mainvisual';
+// import Mainvisual from './MainVisual/Mainvisual';
 
 // 헤더 맨윗 메뉴 부분 담당
 function Header() {

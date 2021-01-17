@@ -1,4 +1,6 @@
- import React from 'react';
+import React from 'react';
+import Event from './Event/Event';
+ 
 import Header from './Header/Header'; 
 import Mainvisual from './Header/MainVisual/Mainvisual';
  
@@ -8,6 +10,7 @@ function Main() {
         <>
           <Header />
           <Mainvisual />
+          <Event />
         </>
      );
  }
