@@ -35,23 +35,26 @@ overflow:hidden;
 
 export const FormHeaderH1 = styled.div`
    font:bold 18px/24px arail;
-   margin:auto;
+   margin: 0px auto;
    display:block;
    padding:50px;
-   margin:20px 20px 20px 45%;
+   text-align:center;
 `;
 
 export const FormHeaderP = styled.div`
   height:300px;
   display:inline-flex;
-  border:1px solid #000;
   justify-content:center;
   float:left;
-  margin-left:5px;
   align-items: center;
-  padding: 0 5%;
   position:relative;
-  left:18%;
+  margin-left:2%;
+  margin-right:5;
+  left:45%;
+  right:0%;
+
+ 
+ 
 
   @media screen and (max-width:1540px) {
     margin:50px 10px -10px;
@@ -65,3 +68,41 @@ export const FormHeaderP = styled.div`
   }
 `;
 
+export const Img = styled.img`
+height:300px;
+display:inline-flex;
+justify-content:center;
+float:left;
+margin-left;20%;
+align-items: center;
+position:relative;
+left:-180%;
+
+&:hover {
+  background:red;
+  border:2px solid red;
+  opacity:50%;
+  transition:5s;
+}
+`;
+
+export const ImgH1 = styled.div`
+  color:red;
+  float:left;
+`
+
+export const ImgDescription = styled.div`
+   font:bold 18px/24px arial;
+   color:red;
+   display:inline-block;
+   text-align:center;
+   position:relative;
+   top:400px;
+   left:200px;
+   right:200px;
+   bottom:400px;
+
+   &:hover{
+     opacity:100%;
+   }
+`

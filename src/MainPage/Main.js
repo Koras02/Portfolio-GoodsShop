@@ -1,4 +1,5 @@
 import React from 'react';
+import { homeObjOne } from '../Data/Data';
 import Event from './Event/Event';
  
 import Header from './Header/Header'; 
@@ -9,7 +10,7 @@ function Main() {
      return (
         <>
           <Header />
-          <Mainvisual />
+          <Mainvisual {...homeObjOne} />
           <Event />
         </>
      );

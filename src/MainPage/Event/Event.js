@@ -3,25 +3,22 @@ import {
   EventWrapper,
   EventWrapperH1,
   EventWrapperH2,
-  EventForm
+  EventForm,
+  EventWrapperWrapper
   } from './EvnetStyle'
 
 function Event() {
      return (
         <EventWrapper>
-          <EventWrapperH1>Event</EventWrapperH1>
        <EventForm>  
+         <EventWrapperWrapper> 
+          <EventWrapperH1>Event</EventWrapperH1>
           <EventWrapperH2>Event</EventWrapperH2>
           <EventWrapperH2>Event</EventWrapperH2>
           <EventWrapperH2>Event</EventWrapperH2>
           <EventWrapperH2>Event</EventWrapperH2>
+          </EventWrapperWrapper>
        </EventForm>
-          {/* <EventWrapperP>이전</EventWrapperP>
-          {/* <EventWrapperP>1</EventWrapperP>
-          <EventWrapperP>2</EventWrapperP>
-          <EventWrapperP>3</EventWrapperP>
-          <EventWrapperP>4</EventWrapperP>
-          <EventWrapperP>다음</EventWrapperP> */} 
         </EventWrapper>
      );
  }
