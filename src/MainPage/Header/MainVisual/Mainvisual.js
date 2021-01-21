@@ -1,4 +1,5 @@
-import React  from 'react';
+import React from 'react';
+ 
 import {
     FormHeaderWrapper,
     FormHeaderBoard,
@@ -20,6 +21,7 @@ const InfoSection = ({
     img2,
     img3
 }) =>  { 
+   
     return (
         <FormHeaderWrapper>
            <FormHeaderBoard>
@@ -31,11 +33,11 @@ const InfoSection = ({
             <ImgForm>
              <ImgWrapper2>
                <Img to="/Pigure" src={img}/>
-               <Img to="/" src={img2}/>
-               <Img to="/" src={img3}/> 
-               <Img to="/" src={img3}/>   
+               <Img to="/Pigure" src={img2}/>
+               <Img to="/Pigure" src={img3}/>
+               <Img to="/Pigure" src={img3}/>
             <ImgDescription>
-              <ImgDescriptionH1 to="/Pigure">피규어</ImgDescriptionH1>
+              <ImgDescriptionH1 to="/Pigure"> 피규어</ImgDescriptionH1>
               <ImgDescriptionH1>베스트 셀러</ImgDescriptionH1>
               <ImgDescriptionH1>피규어</ImgDescriptionH1>
               <ImgDescriptionH1>피규어</ImgDescriptionH1>
@@ -47,6 +49,5 @@ const InfoSection = ({
         </FormHeaderWrapper>
      );
  }
-
 
  export default InfoSection;
