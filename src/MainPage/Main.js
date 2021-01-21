@@ -1,16 +1,15 @@
 import React from 'react';
-import { homeObjOne } from '../Data/Data';
-import Event from './Event/Event'; 
 import Header from './Header/Header'; 
-import Mainvisual from './Header/MainVisual/Mainvisual';
+import MainVisual from './MainVisual/MainVisual';
+import MainVisualMenu from './MainVisualMenu/MainVisualMenu';
  
 
 function Main() {
      return (
-        <>
+         <>
           <Header />
-          <Mainvisual {...homeObjOne} />
-          <Event /> 
+          <MainVisual />
+          <MainVisualMenu />
         </>
      );
  }
