@@ -32,6 +32,16 @@ export const CategoryWrapper = styled.div`
      margin-left:20px;
      border:1px solid #000;
 
+     @media screen and (max-width:1600px) {
+      margin:80px 0px 0px 7px;
+      border:1px solid green;
+   }
+   @media screen and (max-width:1200px) {
+      margin:60px 0px 0px 10px;
+      border:1px solid pink;
+   }
+
+
      &:nth-child(1) {
         background-image: url(${Img});
         background-repeat:no-repeat;
@@ -57,12 +67,29 @@ export const CategoryWrapper = styled.div`
         &:hover {
          opacity:80%;
          transition:3s;
-      }                
+      }            
+      &:nth-child(4) {
+         background-image: url(${Img3});
+         background-repeat:no-repeat;
+         background-size:300px;
+         &:hover {
+          opacity:80%;
+          transition:3s;
+       }
+       
      }
    `
 
    export const CategoryFormH1 = styled.div`
-      padding:130px;
+      padding:120px;
       margin:20px;
       overflow:hidden;
+
+      @media screen and (max-width:1200px) {
+         padding:70px;
+      }
+
+      @media screnn and (max-width:1600px) {
+         padding:90px;
+      }
    `

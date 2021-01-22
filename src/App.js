@@ -7,7 +7,6 @@ function App() {
      return (
      <Router>
        <Route exact path="/"  component={Main} /> 
-    
      </Router>
      )
  }
