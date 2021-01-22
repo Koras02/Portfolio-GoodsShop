@@ -21,6 +21,11 @@ padding:20px;
 display:inline;
 text-align:center;
 font:bold 18px/24px arial;
+border: 1px solid #000;
+
+&:active {
+  color:red;
+}
 `;
 
 export const Page = styled.div`

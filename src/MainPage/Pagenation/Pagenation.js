@@ -1,23 +1,24 @@
-import React,{useState} from 'react';
-import Page1 from './Page1';
-import Page2 from './Page2';
+import React,{ useState} from 'react';
+ 
 import {PageNationWrapper,PageNationHeader,PageNationNumber,Page} from './PagenationStyle';
 
+ 
 
 function Pagenation() {
-    const [comp, setComp] = useState(Page1);
+    const [comp, setComp] = useState();
+    
      return (
          <>
         <PageNationWrapper>
          <Page children={comp} /> 
             <PageNationHeader>
                 <PageNationNumber>Prev</PageNationNumber>
-                <PageNationNumber 
-                onClick={() => setComp(Page1)}>
+                <PageNationNumber
+                onClick={() => setComp()}>
                     1
                 </PageNationNumber>
                 <PageNationNumber
-                onClick={() => setComp(Page2)}>
+                onClick={() => setComp()}>
                     2
                 </PageNationNumber>
                 <PageNationNumber

@@ -3,7 +3,7 @@
 function Page2() {
      return (
        <div>
-         2ÆäÀÌÁö
+         Hello React!
        </div>
      );
  }
