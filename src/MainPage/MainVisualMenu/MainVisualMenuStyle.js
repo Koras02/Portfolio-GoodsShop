@@ -12,10 +12,10 @@ export const MenuWrapper = styled.div`
 export const MenuWrapperBox = styled.div`
  
   padding:20px;
-  border:8px solid #000;
+ 
 
 `
-export const MenuWrapperH1 = styled(LinkR)`
+export const MenuWrapperH1Links = styled(LinkR)`
   margin-left:90px;
   margin-top:30%;
   display:inline;
@@ -45,11 +45,4 @@ export const MenuWrapperH1 = styled(LinkR)`
     color:#fff;
   }
   `;
-
-export const ToggleWrapper = styled.div`
-  width:100%;
-  height:500px;  
-  float:left;
-  display:block;
-  margin:20px auto;
-`
+ 

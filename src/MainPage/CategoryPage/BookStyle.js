@@ -1,25 +1,68 @@
 import styled from 'styled-components';
+import Img from './Images/Amond.jpg';
+import Img2 from './Images/Book2.jpeg'
+import Img3 from './Images/Kniss.jpg'
 
 export const CategoryWrapper = styled.div`
    width:100%;
+   height:600px;
+   margin:24px auto;
    border:1px solid red;
 `;
+   
+ export const CategoryWrapperH1 = styled.div`
+     margin:20px auto;
+     text-align:center;
+     font:bold 24px/32px arial;
+   `;
+   
+   export const CategoryWrapperP = styled.div`
+     text-align:center;
+     font:bold 18px/28px arial;
+     color:#fcc;
+   `;
 
-export const CategoryWrapperHeader = styled.div`
-   width:50%;
-   margin:auto;
-   border:1px solid #000;
-   background:gray;
-`;
+   export const CategoryFormWrapper = styled.div`
+     text-align:center;
+   `
 
-export const CategoryWrapperH1 = styled.div`
-   texta-align:center;
-   font:bold 18px/24px arial;
-`;
+   export const CategoryForm = styled.div`
+     display:inline-flex;
+     margin:100px auto;
+     margin-left:20px;
+     border:1px solid #000;
 
-export const CategoryWrapperP = styled.div`
-   text-align:center;
-   float:left;
-   font:bold 16px/18px arial;
-`
+     &:nth-child(1) {
+        background-image: url(${Img});
+        background-repeat:no-repeat;
+        background-size:300px;
+       &:hover {
+          opacity:80%;
+          transition:3s;
+       }
+     }
+     &:nth-child(2) {
+        background-image: url(${Img2});
+        background-repeat:no-repeat;
+        background-size:300px;
+      &:hover {
+         opacity:80%;
+         transition:3s;
+      }
+     }
+     &:nth-child(3) {
+        background-image: url(${Img3});
+        background-repeat:no-repeat;
+        background-size:300px;
+        &:hover {
+         opacity:80%;
+         transition:3s;
+      }                
+     }
+   `
 
+   export const CategoryFormH1 = styled.div`
+      padding:130px;
+      margin:20px;
+      overflow:hidden;
+   `
