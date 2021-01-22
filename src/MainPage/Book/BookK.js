@@ -1,15 +1,31 @@
 import React from 'react';
 import {BookSWrapper,
-    BookSHeader
-    ,BooksVisual,
+    BookSHeader,
+    BooksVisual,
     BooksVisualForm,
     BookSHeaderH1,
     BookSHeaderP,
-    BooksVisualFormH1
+    BooksVisualFormH1,
+    FormDescription,
+    FormH1,
+    FormPay,
+    FormP,
+    FormPayP
 } from './BookKStyle'
 
-function BookK() {
+const InfoSection = ({
+     title,
+     title2,
+     title3,
+     person,
+     person2,
+     person3,
+     pay1,
+     pay2,
+     pay3,
+  }) => {
      return (
+         <>
         <BookSWrapper>
             <BookSHeader>
                 <BookSHeaderH1>신상품</BookSHeaderH1>
@@ -28,10 +44,28 @@ function BookK() {
                 <BooksVisualForm>
                 <BooksVisualFormH1></BooksVisualFormH1>
                 </BooksVisualForm>
+              <FormDescription>
+                   <FormH1>{title}</FormH1>
+                    <FormH1>{title}</FormH1>
+                    <FormH1>{title2}</FormH1>
+                    <FormH1>{title3}</FormH1>
+              </FormDescription>      
+              <FormPay> 
+                    <FormP>{person}</FormP>
+                    <FormP>{person}</FormP>
+                    <FormP>{person2}</FormP>
+                    <FormP>{person3}</FormP>
+             </FormPay>
+             <FormPay>
+                   <FormPayP>{pay3}</FormPayP>
+                   <FormPayP>{pay1}</FormPayP>
+                   <FormPayP>{pay2}</FormPayP>
+                   <FormPayP>{pay1}</FormPayP>
+             </FormPay>
             </BooksVisual>
         </BookSWrapper>
+        </>
      );
- }
+};
 
-
- export default BookK;
+ export default InfoSection;
