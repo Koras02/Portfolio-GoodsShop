@@ -7,10 +7,11 @@ import Image6 from './Images/BongJunHo.jpg';
 import Image7 from './Images/BongJunHo3.jpg';
 import Image8 from './Images/YourPancreas.jpg';
 import Image9 from './Images/YourPancreas2.jpg';
+import {Link as LinkR} from 'react-router-dom'
  
 export const BookSWrapper = styled.div`
    width:100%;
-   height:1200px;
+   height:800px;
    border:1px solid #000;
  `;
 
@@ -83,9 +84,19 @@ export const BooksVisualForm = styled.div`
           background-size:260px 400px;
      }
    }
+
+ @media screen and (max-width:1600px) {
+    margin:2px;
+ }
+ 
+
+ @media screen and (max-width:1200px) {
+   margin:0% 0% 0% -2%;
+ }
+
 `;
      
-     export const BooksVisualFormH1 = styled.img`
+export const BooksVisualFormH1 = styled(LinkR)`
      padding:120px;
      margin:10px;
      overflow:hidden;
@@ -101,17 +112,30 @@ export const FormWrapper = styled.div`
 
 export const FormDescription = styled.div`
   width:100%;
-  border:1px solid #000;
   margin:auto;
   height:30px;
  
 `
-export const FormH1 = styled.div`
+export const FormH1 = styled(LinkR)`
   display:inline-table;
+  text-decoration:none;
   cursor: pointer;
   font:bold 16px/30px arial;
   margin-left:150px;
   margin-right:90px;
+  color:#000;
+
+  @media screen and (max-width:1300px) {
+     margin-left:70px;
+     margin-right:100px;
+     margin-top:10px;
+     border:1px solid red;
+  }
+
+  @media screen and (max-width:967px) {
+     display:none;
+  }
+ 
 `;
 
 export const FormP = styled.div`
@@ -120,7 +144,18 @@ font-family:Nunito-Sans;
 display:inline-table;
 margin-top:20px;
 margin-left:150px;
-margin-right:70px;
+margin-right:80px;
+
+// 일반 데스크톱 
+ @media screen and (max-width:1300px) {
+     border:1px solid blue;
+     margin-left:70px;
+ }
+
+
+ @media screen and (max-width:967px) {
+    display:none;
+ }
 `;
 
 
@@ -134,10 +169,20 @@ export const FormPayP = styled.div`
 font:bold 10px/24px arial;
 font-family:Nunito-Sans;
 display:inline-table;
-margin-top:10px;
-margin-left:95px;
-margin-right:150px;
+margin:10px 130px;
 border-radius:10px;
 padding:5px;
 background:powderblue;
+
+
+@media screen and (max-width:1300px) {
+   border:1px solid red;
+   margin:10px 95px;
+}
+
+
+@media screen and (max-width:967px) {
+   display:none;
+}
+ 
 `;

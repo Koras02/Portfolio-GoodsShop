@@ -5,6 +5,7 @@ import Book from './CategoryPage/Book';
 import Header from './Header/Header'; 
 import MainVisual from './MainVisual/MainVisual';
 import MainVisualMenu from './MainVisualMenu/MainVisualMenu';
+import Pagenation from './Pagenation/Pagenation';
 
 function Main() {
      return (
@@ -14,6 +15,7 @@ function Main() {
           <MainVisualMenu />
           <Book/>
           <BookK {...bookObjOne}/>
+          <Pagenation />
         </>
      );
  }
