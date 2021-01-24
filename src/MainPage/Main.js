@@ -7,9 +7,10 @@ import Book from './CategoryPage/Book';
 import Header from './Header/Header'; 
 import MainVisual from './MainVisual/MainVisual';
 import MainVisualMenu from './MainVisualMenu/MainVisualMenu';
+import Recommend from './Recommend/Recommend';
 
 
-function Main() {
+export function Main() {
      return (
          <>
           <Header />
@@ -18,6 +19,7 @@ function Main() {
           <Book/>
           <BookK {...bookObjOne}/>
           <Adware slides={SliderData}/>
+          <Recommend />
         </>
      );
  }
