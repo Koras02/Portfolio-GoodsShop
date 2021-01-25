@@ -4,7 +4,10 @@ import {Link as LinkR} from 'react-router-dom';
 export const FooterWrapper = styled.div`
   width:100%;
   height:500px;
-  margin:200px auto;
+  margin:2px auto;
+  position:relative;
+  border-bottom:1px solid #000;
+  top:100px;
   border:1px solid #000;
   background: #FFEFBA;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
