@@ -4,6 +4,7 @@ import {Link as LinkR}  from 'react-router-dom'
 export const MovieDramaWrapper = styled.div`
    width:100%;
    height:600px;
+   overflow:hidden;
 `;
 
 export const MovieDramaFromWrapper = styled.div`
