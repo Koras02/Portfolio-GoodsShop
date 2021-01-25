@@ -5,7 +5,8 @@ import {
   BookMangaFormWrapperH1,
   BookMangaFormWrapperImage,
   BookMangaFormH1,
-  BookMangaFormH1Wrapper
+  BookMangaFormH1Wrapper,
+  BookPageH1
 } from './BookMangaStyle';
 
  
@@ -37,6 +38,10 @@ const Bookmanga = ({
          <BookMangaFormH1 to="100History">{title3}</BookMangaFormH1>
          <BookMangaFormH1 to="EBS X Alive">{title}</BookMangaFormH1>
          </BookMangaFormH1Wrapper>
+         <BookPageH1>1</BookPageH1>
+         <BookPageH1>2</BookPageH1>
+         <BookPageH1>3</BookPageH1>
+         <BookPageH1>4</BookPageH1>
          </BookMangaFormWrapper>
        </BookMangaWrapper>
      );

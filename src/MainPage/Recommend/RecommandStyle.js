@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {Link } from 'react-router-dom'
-import Book from '../CategoryPage/Book';
 
 export const RecommendWrapper = styled.div`
   width:100%;
@@ -26,14 +25,25 @@ export const RecommendP1Link = styled(Link)`
   left:50%;
   border-bottom:5px solid #000;
   padding-bottom:1px;
-  color:#000;
+  color: ${({ color }) => (color ? '#000' : 'blue')};
+  transition:10s;
   
-  
-  &:hover {
+  @media screen and (max-width:1400px) {
     color:red;
-    border-bottom:5px solid red;
-    mous: ${({ mouseOver }) => (mouseOver ?  <Book/> : 'blue')};
+    margin-left:-400px;
+    margin-right:500px;
+  }
+
+  @media screen and (max-width:1024px) {
+    color:red;
+    margin-left:-400px;
+    margin-right:500px;
   }
   
+  }
+  &:focus {
+    color: ${({ onFocus }) => (onFocus ? 'red' : '#000')};
+  }
+   
  
 `;

@@ -20,7 +20,7 @@ export function MouseOver() {
     const onMouseOver = useCallback(() => {
         setTimeout(() => {
             setMouseover(mouseover => !mouseover);
-        },4000)
+        },5000)
     },[])
     const onMouseEnter = useCallback(() => {
         setTimeout(() => {
@@ -30,7 +30,7 @@ export function MouseOver() {
      return (
         <RecommendWrapper>
         <RecommendH1>카테고리별 보기</RecommendH1>
-        <RecommendP1Link 
+        <RecommendP1Link activestyle={{ color: 'red' }}
         //1번에서 2번으로 전환 그후 2번에서 1번으로 전환 이상무
         onMouseEnter={() => setMouseover(true) / onMouseEnter}
         onMouseOverCapture={() => setMouseover4(false)}

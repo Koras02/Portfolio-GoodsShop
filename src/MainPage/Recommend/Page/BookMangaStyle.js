@@ -9,6 +9,7 @@ export const BookMangaWrapper = styled.div`
   display:flex;
   positoin:relative;
   background:#fff;
+  transition:10s;
 `;
 
 export const BookMangaFormWrapper = styled(LinkR)`
@@ -37,7 +38,22 @@ export const BookMangaFormWrapperImage = styled.img`
   left:50%;
   top:12%;
 
- 
+  @media screen and (max-width:1800px) {
+    color:red;
+    margin-left:-550px;
+    margin-right:650px;
+  }
+
+  @media screen and (max-width:1600px) {
+    color:red;
+    margin-left:-460px;
+    margin-right:550px;
+  }
+  @media screen and (max-width:1450px) {
+    color:red;
+    margin-left:-500px;
+    margin-right:600px;
+  }
 `;
 
 
@@ -77,14 +93,98 @@ export const BookMangaFormH1 = styled(LinkR)`
     border-bottom: 4px solid #000;
  
   }
- 
-
-  &:first-child {
+  @media screen and (max-width:1800px) {
     color:red;
+    font:bold 14px/16px arial;
+    &:nth-child(1) {
+      margin-left:-570px;
+    }
+    &:nth-child(2) {
+      margin-left:-600px;
+    }
+    &:nth-child(3) {
+      margin-left:-500px;
+    }
+    &:nth-child(4) {
+      margin-left:-580px;
+    }
+    &:nth-child(5) {
+      margin-left:-650px;
+    }
   }
+  @media screen and (max-width:1600px) {
+    color:orange;
+    font:bold 14px/16px arial;
+    &:nth-child(1) {
+      margin-left:-500px;
+    }
+    &:nth-child(2) {
+      margin-left:-600px;
+    }
+    &:nth-child(3) {
+      margin-left:-500px;
+    }
+    &:nth-child(4) {
+      margin-left:-600px;
+    }
+    &:nth-child(5) {
+      margin-left:-680px;
+    }
+  }
+
+  @media screen and (max-width:1500px) {
+    color:blue;
+    &:nth-child(2) {
+      margin-left:-580px;
+    }
+    &:nth-child(3) {
+      margin-left:-500px;
+    }
+    &:nth-child(4) {
+      margin-left:-600px;
+    }
+    &:nth-child(5) {
+      margin-left:-650px;
+    }
+  }
+
+  @media screen and (max-width:1450px) {
+    color:green;
+    &:nth-child(1) {
+      margin-left:-500px;
+    }
+    &:nth-child(2) {
+      margin-left:-600px;
+    }
+    &:nth-child(3) {
+      margin-left:-540px;
+    }
+    &:nth-child(4) {
+      margin-left:-550px;
+    }
+    &:nth-child(5) {
+      margin-left:-650px;
+    }
+  }
+
+
 `;
 
 
+export const BookPageH1 = styled.div`
+  text-align;center;
+  display:inline-flex;
+  position:relative;
+  left:50%;
+  bottom:20px;
+  margin-left:-100px;
+  margin-right:200px;
+  overflow:hidden;
+
+  &:hover {
+    color:blue;
+  }
+`
 
 
 
