@@ -2,7 +2,7 @@ import React from 'react';
 import Adware from './Ads/Adware';
 import { SliderData } from './Ads/SliderData';
 import BookK from './Book/BookK';
-import { bookObjOne } from './Book/Data';
+import { bookObjOne, bookObjTwo } from './Book/Data';
 import Book from './CategoryPage/Book';
 import Header from './Header/Header'; 
 import MainVisual from './MainVisual/MainVisual';
@@ -16,10 +16,10 @@ export function Main() {
           <Header />
           <MainVisual />
           <MainVisualMenu />
-          <Book/>
+          <Book {...bookObjTwo} />
           <BookK {...bookObjOne}/>
           <Adware slides={SliderData}/>
-          <Recommend />
+          <Recommend slides={SliderData} />
         </>
      );
  }

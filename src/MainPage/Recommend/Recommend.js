@@ -1,24 +1,40 @@
-import React, { useState } from 'react';
-import {RecommendWrapper, RecommendH1,RecommendP1Link} from './RecommandStyle';
+import React, { useCallback, useState } from 'react';
+import Bookmanga from './Page/Bookmanga';
+import { bookObjThree, bookObjTwo } from './Page/images/BookImage';
+import MovieDrama from './Page/MovieDrama';
+import {
+    RecommendWrapper, 
+    RecommendH1,
+    RecommendP1Link
+} from './RecommandStyle';
  
 
 export function Recommend() {
-    const [mouseover,setMouseover] = useState(true) 
-    const [mouseover2,setMouseover2] = useState(false)
-    const [mouseover3,setMouseover3] = useState(false)  
-    const [mouseover4,setMouseover4] = useState(false)  
-    const [mouseover5,setMouseover5] = useState(false)  
-
+    const [mouseover,setMouseover] = useState(true);
+    const [mouseover2,setMouseover2] = useState(false);
+    const [mouseover3,setMouseover3] = useState(false); 
+    const [mouseover4,setMouseover4] = useState(false); 
+    const [mouseover5,setMouseover5] = useState(false);
+    const onMouseOver = useCallback(() => {
+        setTimeout(() => {
+            setMouseover(mouseover => !mouseover);
+        },4000)
+    },[])
+    const onMouseEnter = useCallback(() => {
+        setTimeout(() => {
+            setMouseover(mouseover => !mouseover);
+        },5000)
+    },[])
      return (
         <>
        <RecommendWrapper>
            <RecommendH1>카테고리별 보기</RecommendH1>
            <RecommendP1Link 
            //1번에서 2번으로 전환 그후 2번에서 1번으로 전환 이상무
-           onMouseEnter={() => setMouseover(true)}
+           onMouseEnter={() => setMouseover(true) / onMouseEnter}
            onMouseOverCapture={() => setMouseover4(false)}
            // eslint-disable-next-line react/jsx-no-duplicate-props
-           onMouseOver={() => setMouseover2(false) ?? setMouseover3(false) / setMouseover5(false)}
+           onMouseOver={() => setMouseover2(false) ?? setMouseover3(false) / setMouseover5(false) / onMouseOver}
             // eslint-disable-next-line react/jsx-no-duplicate-props
            >도서/만화</RecommendP1Link>
            <RecommendP1Link 
@@ -51,10 +67,10 @@ export function Recommend() {
            >정보/블로그</RecommendP1Link>
            <hr />
            {mouseover && (
-               <div>1번페이지</div>
+               <Bookmanga {...bookObjTwo} />
            )}
            {mouseover2 && (
-               <div>2번페이지</div>
+               <MovieDrama {...bookObjThree} />
            )}
            {mouseover3 && (
                <div>3번페이지</div>

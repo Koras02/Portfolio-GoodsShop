@@ -16,3 +16,8 @@ export const bookObjOne = {
     pay3: '8700원',
 }
 
+
+export const bookObjTwo = {
+    id:'Book2',
+    img:Image
+}

@@ -5,7 +5,6 @@ import Book from '../CategoryPage/Book';
 export const RecommendWrapper = styled.div`
   width:100%;
   height:600px;
-  border:1px solid #000;
 `;
 
 export const RecommendH1 = styled.div`
@@ -33,7 +32,7 @@ export const RecommendP1Link = styled(Link)`
   &:hover {
     color:red;
     border-bottom:5px solid red;
-    background: ${({ mouseOver }) => (mouseOver ?  <Book/> : 'blue')};
+    mous: ${({ mouseOver }) => (mouseOver ?  <Book/> : 'blue')};
   }
   
  
