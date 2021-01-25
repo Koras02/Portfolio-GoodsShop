@@ -82,6 +82,7 @@ export function MouseOver() {
         {mouseover5 && (
             <div>5번페이지</div>
         )}
+    <hr />
     </RecommendWrapper>
 
      );

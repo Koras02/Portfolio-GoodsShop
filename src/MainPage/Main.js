@@ -4,6 +4,7 @@ import { SliderData } from './Ads/SliderData';
 import BookK from './Book/BookK';
 import { bookObjOne, bookObjTwo } from './Book/Data';
 import Book from './CategoryPage/Book';
+import Footer from './Footer/Footer';
 import Header from './Header/Header'; 
 import MainVisual from './MainVisual/MainVisual';
 import MainVisualMenu from './MainVisualMenu/MainVisualMenu';
@@ -20,6 +21,7 @@ export function Main() {
           <BookK {...bookObjOne}/>
           <Adware slides={SliderData}/>
           <Recommend slides={SliderData} />
+          <Footer/>
         </>
      );
  }

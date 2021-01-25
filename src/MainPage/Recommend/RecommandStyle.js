@@ -42,7 +42,8 @@ export const RecommendP1Link = styled(Link)`
   
   }
   &:focus {
-    color: ${({ onFocus }) => (onFocus ? 'red' : '#000')};
+    color: ${({ onFocus }) => (onFocus ? 'gray' : '#000')};
+    transition:0.5s;
   }
    
  
