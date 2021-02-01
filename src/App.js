@@ -7,7 +7,7 @@ import Main from './MainPage/Main';
 function App() {
      return (
      <Router>
-       <Route exact path="/"  component={Main} /> 
+       <Route exact path="/Portfolio3-GoodsShop"  component={Main} /> 
      </Router>
      )
  }
