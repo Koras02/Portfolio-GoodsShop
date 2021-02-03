@@ -34,16 +34,16 @@ const InfoSection = ({
             </BookSHeader>
             <BooksVisual>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/Amond"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/Amond"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/KI"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/KI"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/KI"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/KI"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/1"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/1"></BooksVisualFormH1>
                 </BooksVisualForm>
               <FormDescription>
                     <FormH1 to="/users">{title}</FormH1>

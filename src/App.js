@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
        <Route exact path="/Portfolio3-GoodsShop"  component={Main} /> 
        <Route 
-       path="/koras02.github.io/:id/" component={SubPageForm} 
+       path="/Portfolio3-GoodsShop/:id/" component={SubPageForm} 
        />
        <Route 
         path="//KI/" component={AMond}
