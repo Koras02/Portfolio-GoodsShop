@@ -25,6 +25,7 @@ const InfoSection = ({
      pay3,
   }) => {
      return (
+         //sdasdsada
          <>
         <BookSWrapper>
             <BookSHeader>
