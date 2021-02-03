@@ -9,7 +9,7 @@ import AMond from './api/Form/Layout/page/AMond';
 function App() {
      return (
       <BrowserRouter>
-       <Route exact path="/koras02.github.io"  component={Main} /> 
+       <Route exact path="/koras02.github.io/Portfolio3-GoodsShop"  component={Main} /> 
        <Route 
        path="/koras02.github.io/:id/" component={SubPageForm} 
        />
