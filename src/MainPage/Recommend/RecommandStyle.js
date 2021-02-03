@@ -3,7 +3,7 @@ import {Link } from 'react-router-dom'
 
 export const RecommendWrapper = styled.div`
   width:100%;
-  height:600px;
+  height:800px;
 `;
 
 export const RecommendH1 = styled.div`
