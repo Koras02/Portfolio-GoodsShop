@@ -30,7 +30,7 @@ export const MainvisualTwo = ({
           <div>15% 할인</div>
         } 
         {mouseclick2 && 
-        <div>25% 할인</div>}
+          <div>25% 할인</div>}
         </div>
         </>
      );
