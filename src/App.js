@@ -11,10 +11,10 @@ function App() {
       <BrowserRouter>
        <Route exact path="/Portfolio3-GoodsShop"  component={Main} /> 
        <Route 
-       path="/users/:id/" component={SubPageForm} 
+       path="/koras02.github.io/:id/" component={SubPageForm} 
        />
        <Route 
-        path="/amond/KI/" component={AMond}
+        path="/koras02.github.io/KI/" component={AMond}
        />
      </BrowserRouter>
      )
