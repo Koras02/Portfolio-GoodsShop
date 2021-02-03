@@ -33,19 +33,19 @@ const InfoSection = ({
             </BookSHeader>
             <BooksVisual>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/Amond"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/users/Amond"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/amond/KI"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/user/KI"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/yourpan"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/users3/1"></BooksVisualFormH1>
                 </BooksVisualForm>
               <FormDescription>
-                    <FormH1 to="/Amond">{title}</FormH1>
+                    <FormH1 to="/users">{title}</FormH1>
                     <FormH1>{title}</FormH1>
                     <FormH1 to="/">{title2}</FormH1>
                     <FormH1 to="/yourpan">{title3}</FormH1>
