@@ -3,6 +3,7 @@
     margin-left:20px;
     margin-top:-440px;
     font:bold 26px/30px arial;
+    overflow:hidden;
 }
 
 .title2 { 
@@ -13,6 +14,7 @@
     padding:0;
     position:relative;
     left:50%;
+    overflow:hidden;
     top:5%;
 
     @media only screen and (max-width: 600px) {

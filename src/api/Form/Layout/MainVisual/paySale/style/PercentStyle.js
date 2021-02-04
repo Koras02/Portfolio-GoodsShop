@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const PercentWrapper = styled.div`
   display:block;
+  overflow:hidden;
 `;
 
 export const PercentH1 = styled.div`
@@ -11,6 +12,7 @@ export const PercentH1 = styled.div`
    margin-top:38px;
    margin-left:20px;
    font:bold 18px/24px arial;
+   overflow:hidden;
 `;
 
 export const PercentP = styled.div`
@@ -18,6 +20,7 @@ export const PercentP = styled.div`
    margin-top:-25px;
    margin-left:200px;
    font:bold 16px/24px arial;
+   overflow:hidden;
 `;
 
 export const PercentP2 = styled.div`
@@ -28,6 +31,7 @@ export const PercentP2 = styled.div`
    border:1px solid #000;
    width:15%;
    text-align:center;
+   overflow:hidden;
 `; 
 
 export const PercentNumber = styled.div`
@@ -41,6 +45,7 @@ export const PercentNumber = styled.div`
   position:relative;
   left:300px;
   bottom:30px;
+  overflow:hidden;
 `
 
 export const PercentButton = styled.button`
@@ -49,6 +54,7 @@ export const PercentButton = styled.button`
   margin:50px 40px 0px auto;
   background:#fff;
   color:#000;
+  overflow:hidden;
   overflow:hidden;
   padding:20px;
 `

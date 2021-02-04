@@ -11,4 +11,5 @@ export const BuyPopupWrapper  = styled.div`
   position:relative;
   top:-200px;
   transition: 5s;
+  overflow:hidden;
 `

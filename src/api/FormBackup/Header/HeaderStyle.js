@@ -5,7 +5,6 @@ export const HeaderWrapper = styled.div`
   height:120px;
   border-bottom:1px solid gray;
   background:#fff;
-  overflow:hidden;
 `;
 
 export const HeaderH1 = styled.div`
@@ -23,6 +22,5 @@ export const HeaderInput = styled.input`
    margin-left:0%;
    margin-right:1%;
    float:right;
-   overflow:hidden;
 `;
 
