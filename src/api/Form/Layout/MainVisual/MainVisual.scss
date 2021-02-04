@@ -5,6 +5,7 @@
     padding-bottom:20px;
     border-bottom:3px solid #000;
     font:bold 26px/30px arial;
+    overflow:hidden;
 }
 
 .title2 {
@@ -15,27 +16,36 @@
     padding:0;
     position:relative;
     left:50%;
-    top:2%;
+    top:10%;
+    overflow:hidden;
 
     @media only screen and (max-width: 1024px) {
         margin:100px 300px 0px -240px;
         font:bold 12px/16px arial;
+        overflow:hidden;
+
       }
 
     @media screen and (max-width:860px) {
         margin: 100px 280px 0px -230px;
         font:bold 10px/14px arial;
         color:red;
+        overflow:hidden;
+
     }
 }
 
 .form {
+    max-width:100%;
     width:600px;
     height:500px;
     border:1px solid #000;
     margin:60px auto;
     position: relative;
     left:300px;
+    top:20px;
+    overflow:hidden;
+
 }
 
 .pay1 {
@@ -45,13 +55,15 @@
     left:20px;
     font:bold 18px/24px arial;
     margin-left:30px;
-
+    overflow:hidden;
 }
 
 .pay2 {
     text-align:center;
     margin-left:-250px;
     font: 14px/24px arial;
+    overflow:hidden;
+
 }
 
 .button {
@@ -63,6 +75,8 @@
     background:#fff;
     border:1px solid #000;
     font: 14px/24px arial;
+    overflow:hidden;
+
 
     &:active {
         background: #fc0;
@@ -72,6 +86,8 @@
 
 .toggle {
     text-align:center;
+    overflow:hidden;
+
 }
 
 .MouseForm {
@@ -79,4 +95,6 @@
     height:350px;
     margin-top:10%;
     border:1px solid #000;
+    overflow:hidden;
+
 }

@@ -5,6 +5,7 @@
   color:red;
   background-color:#282c34;
   font-family: 'Nunito Sans', sans-serif;
+  overflow:hidden;
 }
 
 .App-logo {
