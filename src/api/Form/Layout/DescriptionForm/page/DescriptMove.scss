@@ -10,7 +10,7 @@
     text-align:center;
     font:bold 20px/26px arial;
     margin-top:50px;
-    oveflow:hidden;
+    overflow:hidden;
 }
 
 
@@ -35,8 +35,8 @@
 .FiShoppingCartDescription2 {
     font:bold 14px/24px arial;
     text-align:center;
-    margin-top:-165px;
-    margin-left:-70px;
+    margin-top:-164px;
+    margin-left:-0px;
        overflow:hidden;
 }
 
@@ -52,16 +52,42 @@
     border: 1px solid #000;
     position:relative;
     left:50%;
-    bottom:26%;
+    bottom:27%;
     margin-left:80px;
     padding:20px;
        overflow:hidden;
 }
 
-.FiShoppingCartDescription2 {
-    margin-left:20px;
-    margin-top:-180px;
-    font:bold 14px/40px arial;
+
+.FaTruck {
+    border: 1px solid #000;
+    position:relative;
+    left:50%;
+    bottom:30%;
+    margin-left:100px;
+    padding:20px;
+       overflow:hidden;
+}
+.FiShoppingCartDescription3 {
+    font:bold 14px/24px arial;
+    text-align:center;
+    margin-top:-200px;
+    margin-left:800px;
        overflow:hidden;
 }
 
+.FiShoppingCartRight2 {
+position:relative;
+left:50%;
+bottom:34%;
+margin-left:150px;
+   overflow:hidden;
+}
+
+.FiShoppingCartRight3 {
+    position:relative;
+    left:50%;
+    bottom:27%;
+    margin-left:150px;
+       overflow:hidden;
+    }

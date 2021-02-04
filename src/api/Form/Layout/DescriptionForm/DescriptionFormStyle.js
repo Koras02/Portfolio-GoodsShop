@@ -13,6 +13,12 @@ padding-bottom:3rem;
 margin-left:-600px;
 margin-right:700px;
 oveflow:hidden;
+cursor: pointer;
+
+&:hover {
+    color:red;
+    cursor: pointer
+}
 
 @media screen and (max-width:1600px) {
     color:red;

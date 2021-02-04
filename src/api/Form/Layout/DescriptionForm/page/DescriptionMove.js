@@ -1,7 +1,7 @@
 import React from 'react';
 import './DescriptMove.scss'
 import {FiShoppingCart,FiArrowRight} from 'react-icons/fi';
-import {FaCar} from 'react-icons/fa'
+import {FaCar, FaTruck} from 'react-icons/fa'
  
 export const SubVisualOne = ({
    title,
@@ -22,7 +22,12 @@ export const SubVisualOne = ({
          <FaCar className="FaCars" size="90px"/>
          <h1 className="FiShoppingCartDescription2">
            {description2} <br />
-           {description3}
+           {description3} 
+         </h1>
+         <FiArrowRight className="FiShoppingCartRight2" size="60px"/>
+          <FaTruck className="FaTruck" size="90px"/>
+         <h1 className="FiShoppingCartDescription3">
+            {description}
          </h1>
        </div>
      );
