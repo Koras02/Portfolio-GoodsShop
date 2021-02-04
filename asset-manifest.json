@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio3-GoodsShop/static/css/main.7a8c3eb7.chunk.css",
-    "main.js": "/Portfolio3-GoodsShop/static/js/main.03237701.chunk.js",
-    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.03237701.chunk.js.map",
-    "runtime-main.js": "/Portfolio3-GoodsShop/static/js/runtime-main.e6ad70c3.js",
-    "runtime-main.js.map": "/Portfolio3-GoodsShop/static/js/runtime-main.e6ad70c3.js.map",
-    "static/js/2.6c49ab8c.chunk.js": "/Portfolio3-GoodsShop/static/js/2.6c49ab8c.chunk.js",
-    "static/js/2.6c49ab8c.chunk.js.map": "/Portfolio3-GoodsShop/static/js/2.6c49ab8c.chunk.js.map",
-    "static/js/3.084c67fb.chunk.js": "/Portfolio3-GoodsShop/static/js/3.084c67fb.chunk.js",
-    "static/js/3.084c67fb.chunk.js.map": "/Portfolio3-GoodsShop/static/js/3.084c67fb.chunk.js.map",
+    "main.css": "/Portfolio3-GoodsShop/static/css/main.6f9bbe3b.chunk.css",
+    "main.js": "/Portfolio3-GoodsShop/static/js/main.9b7d5e1f.chunk.js",
+    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.9b7d5e1f.chunk.js.map",
+    "runtime-main.js": "/Portfolio3-GoodsShop/static/js/runtime-main.23ef9e6e.js",
+    "runtime-main.js.map": "/Portfolio3-GoodsShop/static/js/runtime-main.23ef9e6e.js.map",
+    "static/js/2.c71d2ca4.chunk.js": "/Portfolio3-GoodsShop/static/js/2.c71d2ca4.chunk.js",
+    "static/js/2.c71d2ca4.chunk.js.map": "/Portfolio3-GoodsShop/static/js/2.c71d2ca4.chunk.js.map",
+    "static/js/3.5ce76bff.chunk.js": "/Portfolio3-GoodsShop/static/js/3.5ce76bff.chunk.js",
+    "static/js/3.5ce76bff.chunk.js.map": "/Portfolio3-GoodsShop/static/js/3.5ce76bff.chunk.js.map",
     "index.html": "/Portfolio3-GoodsShop/index.html",
-    "static/css/main.7a8c3eb7.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.7a8c3eb7.chunk.css.map",
-    "static/js/2.6c49ab8c.chunk.js.LICENSE.txt": "/Portfolio3-GoodsShop/static/js/2.6c49ab8c.chunk.js.LICENSE.txt",
+    "static/css/main.6f9bbe3b.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.6f9bbe3b.chunk.css.map",
+    "static/js/2.c71d2ca4.chunk.js.LICENSE.txt": "/Portfolio3-GoodsShop/static/js/2.c71d2ca4.chunk.js.LICENSE.txt",
     "static/media/1.ff41fc84.jpg": "/Portfolio3-GoodsShop/static/media/1.ff41fc84.jpg",
     "static/media/10.de895c84.jpg": "/Portfolio3-GoodsShop/static/media/10.de895c84.jpg",
     "static/media/11.aa0df237.jpg": "/Portfolio3-GoodsShop/static/media/11.aa0df237.jpg",
@@ -45,9 +45,9 @@
     "static/media/download.a3010f69.jpeg": "/Portfolio3-GoodsShop/static/media/download.a3010f69.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6ad70c3.js",
-    "static/js/2.6c49ab8c.chunk.js",
-    "static/css/main.7a8c3eb7.chunk.css",
-    "static/js/main.03237701.chunk.js"
+    "static/js/runtime-main.23ef9e6e.js",
+    "static/js/2.c71d2ca4.chunk.js",
+    "static/css/main.6f9bbe3b.chunk.css",
+    "static/js/main.9b7d5e1f.chunk.js"
   ]
 }
