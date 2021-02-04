@@ -25,7 +25,7 @@ function DescriptionForm() {
          to="formP"
          smooth={true}
          duration={500}
-         offset={-100}
+         offset={-200}
          >상품정보
          </Button1>
          <Button1
