@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const MainVisualWrapper = styled.div`
    max-width:200%;
-   height:900px;
-   border:1px solid #000;
+   height:800px;
 
    @media screen and (max-width:960px) {
      max-width:200%;
@@ -24,7 +23,7 @@ height:500px;
 position:relative;
 top:200px;
 left:50%;
-margin-left:-600px;
+margin-left:-500px;
 border-right:5px solid #000;
 padding-left:0px;
 padding-right:10px;

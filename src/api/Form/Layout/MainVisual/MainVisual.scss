@@ -35,7 +35,7 @@
     border:1px solid #000;
     margin:60px auto;
     position: relative;
-    left:120px;
+    left:300px;
 }
 
 .pay1 {
@@ -59,9 +59,15 @@
     margin-left:50px;
     position:relative;
     top:24px;
+    padding:10px;
     background:#fff;
     border:1px solid #000;
     font: 14px/24px arial;
+
+    &:active {
+        background: #fc0;
+        transition:1s;
+    }
 }
 
 .toggle {

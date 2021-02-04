@@ -1,6 +1,9 @@
 // 할인 버튼 구현
 import React, { useState } from 'react';
 import '../MainVisual.scss';
+import { homeAmondData } from '../paySale/Data/Data';
+import Percent1 from '../paySale/Percent1';
+ 
 
 export const MainvisualTwo = ({
     pay4,
@@ -23,11 +26,20 @@ export const MainvisualTwo = ({
 
      return (
          <>
-        <button className="button" onClickCapture={onClick}>{pay4}</button>
-        <button className="button" onClickCapture={onClick2}>{pay5}</button>
+        <button 
+        className="button" 
+        onClickCapture={onClick}
+        >
+        {pay4}
+        </button>
+        <button 
+        className="button" 
+        onClickCapture={onClick2}>
+        {pay5}
+        </button>
         <div className="MouseForm">
         {mouseclick && 
-          <div>15% 할인</div>
+          <Percent1 {...homeAmondData}/>
         } 
         {mouseclick2 && 
           <div>25% 할인</div>}

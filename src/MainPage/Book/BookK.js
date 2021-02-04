@@ -25,6 +25,7 @@ const InfoSection = ({
      pay3,
   }) => {
      return (
+         //sdasdsada
          <>
         <BookSWrapper>
             <BookSHeader>
@@ -33,16 +34,16 @@ const InfoSection = ({
             </BookSHeader>
             <BooksVisual>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/Amond"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/1/Amond"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/KI"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/2/Sese"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/KI"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/3"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/koras02.github.io/1"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/1"></BooksVisualFormH1>
                 </BooksVisualForm>
               <FormDescription>
                     <FormH1 to="/users">{title}</FormH1>
