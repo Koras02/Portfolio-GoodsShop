@@ -12,7 +12,7 @@ export const MainVisualWrapper = styled.div`
 
 export const MainVisualForm = styled.div`
   max-width:200%;
-  height:200px;
+  height:100px;
   border:1px solid #000;
   margin:10px auto;
   oveflow:hidden;

@@ -31,5 +31,6 @@ export const SubVisualOne = {
     title: '배송안내',
     description: '상품을 주문하면 4~6시간뒤 처리가 됩니다.',
     description2: '상품을 주문하면 2~3일',
-    description3: '내로 택배사에 도착합니다'
+    description3: '내로 택배사에 도착합니다',
+    description4: '상품 배송이 도착하는데 2~3일이 소요됩니다.',
 }

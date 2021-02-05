@@ -6,6 +6,7 @@
     border-bottom:3px solid #000;
     font:bold 26px/30px arial;
     overflow:hidden;
+     cursor: pointer;
 }
 
 .title2 {
@@ -36,16 +37,28 @@
 }
 
 .form {
-    max-width:100%;
+    max-width:80%;
     width:600px;
     height:500px;
     border:1px solid #000;
     margin:60px auto;
     position: relative;
     left:300px;
-    top:20px;
+    top:30px;
     overflow:hidden;
-
+    @media screen and(max-width:1400px) {
+        width:500px;
+ 
+        margin-left:260px;
+    }
+    @media screen and(max-width:960px) {
+        width:500px;
+        margin-left:140px;
+    }
+    @media screen and(max-width:640px){
+        width:200px;
+        margin-left:20px;
+    }
 }
 
 .pay1 {
@@ -72,17 +85,25 @@
     position:relative;
     top:24px;
     padding:10px;
-    background:#fff;
     border:1px solid #000;
     font: 14px/24px arial;
     overflow:hidden;
-
-
-    &:active {
-        background: #fc0;
-        transition:1s;
-    }
+    cursor: pointer;     
 }
+
+.button .color-active {
+    color:red;
+}
+.button .green-active {
+    background-color:green;
+}
+
+
+
+.red {
+    color:red;
+}
+ 
 
 .toggle {
     text-align:center;
