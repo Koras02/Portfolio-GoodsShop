@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/DescriptionPayBack.css'
+import '../styles/Description.scss';
 
 export function DescriptionPayback() {
      return (
