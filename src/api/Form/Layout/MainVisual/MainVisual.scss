@@ -85,18 +85,25 @@
     position:relative;
     top:24px;
     padding:10px;
-    background:#fff;
     border:1px solid #000;
     font: 14px/24px arial;
     overflow:hidden;
-    cursor: pointer;
-
-
-    &:active {
-        background: #fc0;
-        transition:1s;
-    }
+    cursor: pointer;     
 }
+
+.button .color-active {
+    color:red;
+}
+.button .green-active {
+    background-color:green;
+}
+
+
+
+.red {
+    color:red;
+}
+ 
 
 .toggle {
     text-align:center;

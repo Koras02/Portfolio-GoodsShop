@@ -7,7 +7,8 @@ export const SubVisualOne = ({
    title,
    description,
    description2,
-   description3
+   description3,
+   description4
 }) => {
      return (
        <div id="Go" className="Wrapper">
@@ -27,7 +28,7 @@ export const SubVisualOne = ({
          <FiArrowRight className="FiShoppingCartRight2" size="60px"/>
           <FaTruck className="FaTruck" size="90px"/>
          <h1 className="FiShoppingCartDescription3">
-            {description}
+            {description4}
          </h1>
        </div>
      );
