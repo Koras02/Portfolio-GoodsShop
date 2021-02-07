@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio3-GoodsShop/static/css/main.078ab8b4.chunk.css",
-    "main.js": "/Portfolio3-GoodsShop/static/js/main.ec5a0c81.chunk.js",
-    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.ec5a0c81.chunk.js.map",
+    "main.css": "/Portfolio3-GoodsShop/static/css/main.be369f62.chunk.css",
+    "main.js": "/Portfolio3-GoodsShop/static/js/main.0aed67d9.chunk.js",
+    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.0aed67d9.chunk.js.map",
     "runtime-main.js": "/Portfolio3-GoodsShop/static/js/runtime-main.3ed215a9.js",
     "runtime-main.js.map": "/Portfolio3-GoodsShop/static/js/runtime-main.3ed215a9.js.map",
-    "static/js/2.b9a5b7a5.chunk.js": "/Portfolio3-GoodsShop/static/js/2.b9a5b7a5.chunk.js",
-    "static/js/2.b9a5b7a5.chunk.js.map": "/Portfolio3-GoodsShop/static/js/2.b9a5b7a5.chunk.js.map",
+    "static/js/2.a2e25700.chunk.js": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js",
+    "static/js/2.a2e25700.chunk.js.map": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js.map",
     "static/js/3.f631a195.chunk.js": "/Portfolio3-GoodsShop/static/js/3.f631a195.chunk.js",
     "static/js/3.f631a195.chunk.js.map": "/Portfolio3-GoodsShop/static/js/3.f631a195.chunk.js.map",
     "index.html": "/Portfolio3-GoodsShop/index.html",
-    "static/css/main.078ab8b4.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.078ab8b4.chunk.css.map",
-    "static/js/2.b9a5b7a5.chunk.js.LICENSE.txt": "/Portfolio3-GoodsShop/static/js/2.b9a5b7a5.chunk.js.LICENSE.txt",
+    "static/css/main.be369f62.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.be369f62.chunk.css.map",
+    "static/js/2.a2e25700.chunk.js.LICENSE.txt": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js.LICENSE.txt",
     "static/media/1.ff41fc84.jpg": "/Portfolio3-GoodsShop/static/media/1.ff41fc84.jpg",
     "static/media/10.de895c84.jpg": "/Portfolio3-GoodsShop/static/media/10.de895c84.jpg",
     "static/media/11.aa0df237.jpg": "/Portfolio3-GoodsShop/static/media/11.aa0df237.jpg",
@@ -33,6 +33,7 @@
     "static/media/BongJunHo3.274544d6.jpg": "/Portfolio3-GoodsShop/static/media/BongJunHo3.274544d6.jpg",
     "static/media/Book2.de751f9c.jpeg": "/Portfolio3-GoodsShop/static/media/Book2.de751f9c.jpeg",
     "static/media/Cart.f15a3137.jpeg": "/Portfolio3-GoodsShop/static/media/Cart.f15a3137.jpeg",
+    "static/media/Cart1.b4e748ef.svg": "/Portfolio3-GoodsShop/static/media/Cart1.b4e748ef.svg",
     "static/media/Image1.fbc3525b.jpg": "/Portfolio3-GoodsShop/static/media/Image1.fbc3525b.jpg",
     "static/media/Kniss.cb75a569.jpg": "/Portfolio3-GoodsShop/static/media/Kniss.cb75a569.jpg",
     "static/media/Norimaki.45f89722.jpg": "/Portfolio3-GoodsShop/static/media/Norimaki.45f89722.jpg",
@@ -40,14 +41,16 @@
     "static/media/Osomath.7c940bba.jpg": "/Portfolio3-GoodsShop/static/media/Osomath.7c940bba.jpg",
     "static/media/Tanjiro.59864ad4.jpg": "/Portfolio3-GoodsShop/static/media/Tanjiro.59864ad4.jpg",
     "static/media/Tanjori1.98af45f9.jpg": "/Portfolio3-GoodsShop/static/media/Tanjori1.98af45f9.jpg",
+    "static/media/Truck.13d8c107.png": "/Portfolio3-GoodsShop/static/media/Truck.13d8c107.png",
     "static/media/YourPancreas.d940767c.jpg": "/Portfolio3-GoodsShop/static/media/YourPancreas.d940767c.jpg",
     "static/media/YourPancreas2.dad7900e.jpg": "/Portfolio3-GoodsShop/static/media/YourPancreas2.dad7900e.jpg",
+    "static/media/delever.3534d87c.svg": "/Portfolio3-GoodsShop/static/media/delever.3534d87c.svg",
     "static/media/download.a3010f69.jpeg": "/Portfolio3-GoodsShop/static/media/download.a3010f69.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ed215a9.js",
-    "static/js/2.b9a5b7a5.chunk.js",
-    "static/css/main.078ab8b4.chunk.css",
-    "static/js/main.ec5a0c81.chunk.js"
+    "static/js/2.a2e25700.chunk.js",
+    "static/css/main.be369f62.chunk.css",
+    "static/js/main.0aed67d9.chunk.js"
   ]
 }
