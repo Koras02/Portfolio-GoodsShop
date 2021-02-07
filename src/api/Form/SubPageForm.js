@@ -7,7 +7,7 @@ import DescriptionMove from './Layout/DescriptionForm/page/DescriptionMove';
 import DescriptionPayback from './Layout/DescriptionForm/page/payback/DescriptionPayback';
 import Mainvisual from './Layout/MainVisual/MainvisualOne';
 
-
+// 아몬드 페이지 Form
 function SubPageForm () {
      return (
         <>

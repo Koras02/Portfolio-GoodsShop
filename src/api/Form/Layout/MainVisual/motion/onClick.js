@@ -7,6 +7,7 @@ import Precent2 from '../paySale/Percent2';
 import { Button } from './onClickStyle';
  
  
+// 주문 수량 Form 
 export const MainvisualTwo = ({
     pay4,
     pay5

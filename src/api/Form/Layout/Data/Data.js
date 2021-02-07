@@ -1,4 +1,7 @@
 import Img from './Img/Amond1.jpg'
+import Img2 from './Img/Cart1.svg'
+import Img3 from './Img/Truck.png'
+import Img4 from './Img/delever.svg';
 
 export const MainvisualOne = {
     title: '아몬드',
@@ -47,4 +50,8 @@ export const SubVisualTwo = {
     title4:'환불 가능 요일:',
     title5:'환불 신청은 평일에만 가능 하며 도착일 안 5일 이상 초과면 환불이 불가합니다.',
     title6:'환불 반송 절차',
+    descriptionli:'1.',
+    img: Img2,
+    img2: Img3,
+    img3: Img4,
 }
