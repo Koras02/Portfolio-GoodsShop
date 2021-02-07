@@ -1,11 +1,13 @@
 // 할인 버튼 구현
 import React, {  useState } from 'react';
 import '../MainVisual.scss';
-import { homeAmondData } from '../paySale/Data/Data';
+import { homeAmondData,homeAmondData2 } from '../paySale/Data/Data';
 import Percent1 from '../paySale/Percent1';
+import Precent2 from '../paySale/Percent2';
 import { Button } from './onClickStyle';
  
  
+// 주문 수량 Form 
 export const MainvisualTwo = ({
     pay4,
     pay5
@@ -51,7 +53,8 @@ export const MainvisualTwo = ({
           <Percent1 {...homeAmondData}/>
         } 
         {mouseclick2 && 
-          <div>25% 할인</div>}
+          <Precent2 {...homeAmondData2}/>
+        }
         </div>
         </>
      );

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom'
 
 export const HeaderWrapper = styled.div`
   width:100%;
@@ -7,20 +8,22 @@ export const HeaderWrapper = styled.div`
   background:#fff;
 `;
 
-export const HeaderH1 = styled.div`
+export const HeaderH1 = styled(LinkR)`
    margin:28px;
    padding:10px;
    font:bold 18px/24px arial;
    color:#000;
    display:inline-flex;
    float:left;
-   overflow:hidden
+   overflow:hidden;
+   text-decoration:none;
 `;
 
 export const HeaderInput = styled.input`
    margin:40px auto;
    margin-left:0%;
    margin-right:1%;
+   text-decroation:none;
    float:right;
 `;
 

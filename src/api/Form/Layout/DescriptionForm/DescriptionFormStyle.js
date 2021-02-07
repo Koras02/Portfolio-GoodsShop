@@ -11,7 +11,8 @@ margin-bottom:10px;
 border-bottom:2px solid #000;
 border-top:2px solid #000;
  
-top:${({scrollNav}) => (scrollNav ? '0%': '-250%')};
+top:${({scrollNav}) => (scrollNav ? '0%': '-100%')};
+ 
 position:${({scrollNav}) => (scrollNav ? 'fixed': 'relative')};
 transition:${({scrollNav}) => (scrollNav ? '15s' : '25s')};
 background:${({scrollNav}) => (scrollNav ? '#fff': '#fff')};

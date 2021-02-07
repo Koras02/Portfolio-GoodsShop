@@ -40,7 +40,7 @@ const InfoSection = ({
                 <BooksVisualFormH1 to="/Portfolio3-GoodsShop/2/Sese"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
-                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/3"></BooksVisualFormH1>
+                <BooksVisualFormH1 to="/Portfolio3-GoodsShop/4/Bong"></BooksVisualFormH1>
                 </BooksVisualForm>
                 <BooksVisualForm>
                 <BooksVisualFormH1 to="/Portfolio3-GoodsShop/1"></BooksVisualFormH1>

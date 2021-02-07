@@ -7,8 +7,10 @@ export const Img = styled.img`
     height:200px;
     position:relative;
     left:50%;
-    margin-left:-500px;
+    margin-left:-600px;
     top:90px;
     border-radius: 100%;
     oveflow:hidden;
 `
+
+ 
