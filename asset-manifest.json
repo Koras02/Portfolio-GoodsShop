@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio3-GoodsShop/static/css/main.be369f62.chunk.css",
-    "main.js": "/Portfolio3-GoodsShop/static/js/main.0aed67d9.chunk.js",
-    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.0aed67d9.chunk.js.map",
-    "runtime-main.js": "/Portfolio3-GoodsShop/static/js/runtime-main.3ed215a9.js",
-    "runtime-main.js.map": "/Portfolio3-GoodsShop/static/js/runtime-main.3ed215a9.js.map",
+    "main.css": "/Portfolio3-GoodsShop/static/css/main.e09b278b.chunk.css",
+    "main.js": "/Portfolio3-GoodsShop/static/js/main.52530a2e.chunk.js",
+    "main.js.map": "/Portfolio3-GoodsShop/static/js/main.52530a2e.chunk.js.map",
+    "runtime-main.js": "/Portfolio3-GoodsShop/static/js/runtime-main.20b36599.js",
+    "runtime-main.js.map": "/Portfolio3-GoodsShop/static/js/runtime-main.20b36599.js.map",
     "static/js/2.a2e25700.chunk.js": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js",
     "static/js/2.a2e25700.chunk.js.map": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js.map",
-    "static/js/3.f631a195.chunk.js": "/Portfolio3-GoodsShop/static/js/3.f631a195.chunk.js",
-    "static/js/3.f631a195.chunk.js.map": "/Portfolio3-GoodsShop/static/js/3.f631a195.chunk.js.map",
+    "static/js/3.bece7e23.chunk.js": "/Portfolio3-GoodsShop/static/js/3.bece7e23.chunk.js",
+    "static/js/3.bece7e23.chunk.js.map": "/Portfolio3-GoodsShop/static/js/3.bece7e23.chunk.js.map",
     "index.html": "/Portfolio3-GoodsShop/index.html",
-    "static/css/main.be369f62.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.be369f62.chunk.css.map",
+    "static/css/main.e09b278b.chunk.css.map": "/Portfolio3-GoodsShop/static/css/main.e09b278b.chunk.css.map",
     "static/js/2.a2e25700.chunk.js.LICENSE.txt": "/Portfolio3-GoodsShop/static/js/2.a2e25700.chunk.js.LICENSE.txt",
     "static/media/1.ff41fc84.jpg": "/Portfolio3-GoodsShop/static/media/1.ff41fc84.jpg",
     "static/media/10.de895c84.jpg": "/Portfolio3-GoodsShop/static/media/10.de895c84.jpg",
@@ -48,9 +48,9 @@
     "static/media/download.a3010f69.jpeg": "/Portfolio3-GoodsShop/static/media/download.a3010f69.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ed215a9.js",
+    "static/js/runtime-main.20b36599.js",
     "static/js/2.a2e25700.chunk.js",
-    "static/css/main.be369f62.chunk.css",
-    "static/js/main.0aed67d9.chunk.js"
+    "static/css/main.e09b278b.chunk.css",
+    "static/js/main.52530a2e.chunk.js"
   ]
 }
