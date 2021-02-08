@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ListWrapper = styled.div`
 width:100%;
-height:900px;
+height:550px;
 border:1px solid red;
 margin:20px auto; 
 `;
@@ -24,6 +24,11 @@ export const Img = styled.img`
  margin-right:800px;
  padding:22px;
  
+ @media screen and (max-width:1600px) {
+   margin-left:-500px;
+   margin-right:580px;
+   padding:16px;
+ }
 `
 
 export const DescriptionWrapper = styled.div`
@@ -40,4 +45,14 @@ export const DescriptionH1 = styled.div`
    margin-left:-600px;
    margin-right:770px;
    font:bold 16px/24px arial;  
+   @media screen and (max-width:1600px) {
+    font:bold 13px/20px arial;
+    margin-left:-500px;
+    margin-right:588px;
+
+    &:nth-child(3) {
+      margin-left:300px;
+      margin-top:-18px;
+    }
+  }
 `;
