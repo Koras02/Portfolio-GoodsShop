@@ -42,6 +42,47 @@ export function Time() {
                 </p>
              </h1>
          </form> 
+      {/* 교환 반품   */}
+         <form className="TimeForm2">
+             <fromborder className="TimeFormBorder">
+              <h1 className="Back1">
+                교환/반품 안내
+              </h1>
+              <p className="BackP">
+                <h1 className="BackH1">
+                교환/반품 비용
+                </h1>
+              </p>
+                <p className="BackP1">
+                  5,000원
+                </p>
+                <p className="BackP2">
+                  -고객 변심일 경우에만 비용이 청구됩니다.
+                </p>
+                <p className="BackP">
+                <h1 className="BackH1">
+                교환/반품 비용
+                </h1>
+              </p>
+                <p className="BackP1">
+                  5,000원
+                </p>
+                <p className="BackP2">
+                  -고객 변심일 경우에만 비용이 청구됩니다.
+                </p>
+                <p className="BackP">
+                <h1 className="BackH1">
+                교환/반품 비용
+                </h1>
+              </p>
+                <p className="BackP1">
+                  5,000원
+                </p>
+                <p className="BackP2">
+                  -고객 변심일 경우에만 비용이 청구됩니다.
+                </p>
+            </fromborder>
+         </form> 
        </div>
      );
  }

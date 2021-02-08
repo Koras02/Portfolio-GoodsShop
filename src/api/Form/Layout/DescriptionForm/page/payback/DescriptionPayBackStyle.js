@@ -29,6 +29,17 @@ export const Img = styled.img`
    margin-right:580px;
    padding:16px;
  }
+  
+ @media screen and (max-width:1400px) {
+  margin-left:-480px;
+  margin-right:540px;
+  padding:12px;
+}
+@media screen and (max-width:1200px) {
+  margin-left:-460px;
+  margin-right:480px;
+  padding:10px;
+}
 `
 
 export const DescriptionWrapper = styled.div`
@@ -46,7 +57,7 @@ export const DescriptionH1 = styled.div`
    margin-right:770px;
    font:bold 16px/24px arial;  
    @media screen and (max-width:1600px) {
-    font:bold 13px/20px arial;
+    font:bold 14px/20px arial;
     margin-left:-500px;
     margin-right:588px;
 

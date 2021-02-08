@@ -1,4 +1,5 @@
  import React from 'react';
+import Footer from '../../MainPage/Footer/Footer';
 import Header from '../../MainPage/Header/Header';
 import { MainvisualOne, SubVisualOne, SubVisualTwo } from './Layout/Data/Data';
 import DescriptionForm from './Layout/DescriptionForm/DescriptionForm';
@@ -19,6 +20,7 @@ function SubPageForm () {
        <DescriptionMove {...SubVisualOne} />
        <DescriptionPayback {...SubVisualTwo} />
        <Time />
+       <Footer />
        </>
      );
  }
