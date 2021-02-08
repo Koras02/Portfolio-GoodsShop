@@ -2,10 +2,11 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const HeaderWrapper = styled.div`
-  width:100%;
+  width:99.9%;
   height:120px;
   border-bottom:1px solid gray;
   background:#fff;
+  overflow:hidden;
 `;
 
 export const HeaderH1 = styled(LinkR)`
@@ -25,5 +26,6 @@ export const HeaderInput = styled.input`
    margin-right:1%;
    text-decroation:none;
    float:right;
+   overflow:hidden;
 `;
 

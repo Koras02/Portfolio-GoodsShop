@@ -26,7 +26,7 @@ export function Time() {
              </p1>
            </p>
          </p>
-             <h1 className="Day">
+             <div className="Day">
                 <p className="p">
                    배송 기간
                 </p>
@@ -40,7 +40,7 @@ export function Time() {
                   <p className="p-right-p2">
                     주문 완료후 4~5일 소요
                 </p>
-             </h1>
+             </div>
          </form> 
       {/* 교환 반품   */}
          <form className="TimeForm2">
