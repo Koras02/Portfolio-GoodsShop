@@ -1,6 +1,6 @@
 .TimeWrapper {
     width:99.9%;
-    height:1600px;
+    height:1800px;
     margin-top:-20px;
     overflow-x: hidden;
 }
@@ -179,26 +179,32 @@
 
 
  .TimeForm2 {
-    width:1200px;
-    height:960px;
+    width:1400px;
+    height:1200px;
     margin:20px auto;
     border:1px solid #000;
     position:absolute;
     left:50%;
     margin-top:400px;
-    margin-left:-580px;
+    margin-left:-680px;
     overflow: hidden;
 
-    @media screen and (max-width:1400px) {
-        width:950px;
+    @media screen and (max-width:1600px) {
+        width:1300px;
         position:absolute;
-        left:60%;
+        left:54%;
         overflow: hidden;
     }
-    @media screen and (max-width:1024px) {
-        width:800px;
+    @media screen and (max-width:1400px) {
+        width:1200px;
         position:absolute;
-        left:70%;
+        left:56%;
+        overflow: hidden;
+    }
+    @media screen and (max-width:1200px) {
+        width:1000px;
+        position:absolute;
+        left:65%;
         overflow: hidden;
     }
 }
@@ -207,9 +213,10 @@
 
 .formborder {
     width:1000px;
-    min-width:1200px;
+    height:1200px;
+    min-width:1300px;
     overflow: hidden;
-    border:1px solid #000;
+    border:2px solid #000;
 }
 
 
@@ -218,8 +225,8 @@
     overflow: hidden;
     text-align:center;
     border-bottom:1px solid #000;
-    margin-top:10px;
-    font: 16px/80px arial;
+    margin-top:1px;
+    font: 16px/60px arial;
     overflow: hidden;
  }
 
@@ -241,7 +248,7 @@
      margin-top:0px;
      padding-top:20px;   
     overflow: hidden;
-    background:#fcfc;
+    background:gray;
  }
 
  .BackH2 {
@@ -257,15 +264,107 @@
    float:left;
    position:relative;
    left:50%;
-   bottom:12%;
+   bottom:10%;
    margin-left: -25%;
    font:18px/24px arial;
 }
+
+
+
 .BackP2  {   
     float:left;
     position:relative;
     left:50%;
-    bottom:8%;
+    bottom:7%;
     margin-left: -25%;
     font: 14px/24px arial;
  }
+
+ .BackP3  {   
+    float:left;
+    position:relative;
+    left:50%;
+    bottom:7%;
+    margin-left: -350px;
+    font: 14px/24px arial;
+ }
+
+ .BackP4 {
+ width:100%;
+ overflow: hidden;
+ height:200px;
+ margin-top:-12px;
+ border-right:1px solid #000;
+ border-top:1px solid #000;
+ border-bottom:1px solid #000;
+ text-align:center;
+ }
+ .BackH3 {
+    width:20%;
+     height:800px;
+     font: 16px/200px arial;
+     margin-top:0px;
+     padding-top:0px;   
+    overflow: hidden;
+    background:gray;
+ }
+
+ .BackP6 {
+    float:left;
+    position:relative;
+    left:47%;
+    bottom:18%;
+    margin-left: -25%;
+    margin-top:10px;
+    font: 14px/24px arial;
+ }
+ .BackP7 {
+    float:left;
+    position:relative;
+    left:47%;
+    bottom:16%;
+    margin-left: -25%;
+    margin-top:20px;
+    font: 14px/24px arial;
+ }
+ .BackP8 {
+    float:left;
+    position:relative;
+    left:47%;
+    bottom:19%;
+    margin-left: -25%;
+    margin-top:10px;
+    padding-top:10px;
+    font: 12px/24px arial;
+ }
+ .BackP9 {
+    float:left;
+    position:relative;
+    left:47%;
+    bottom:17%;
+    margin-left: -25%;
+    margin-top:10px;
+    padding-top:10px;
+    font: 12px/24px arial;
+ }
+
+ .BackP10 {
+    float:left;
+    position:relative;
+    left:47%;
+    bottom:15%;
+    margin-left: -25%;
+    margin-top:10px;
+    padding-top:10px;
+    font: 12px/24px arial;
+ }
+ 
+
+ .BackP11 {
+    float:left;
+    position:relative;
+    left:20%;
+    top:-10%;
+    font: 12px/24px arial;
+ }
+ 
