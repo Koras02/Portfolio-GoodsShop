@@ -34,7 +34,7 @@ export const DescriptionForm = ({ toggle, isOpen }) => {
          smooth={true}
          spy={true}
          duration={0}
-         offset={-200}
+         offset={-300}
          >
          배송/안내
          </Button1>
@@ -42,10 +42,14 @@ export const DescriptionForm = ({ toggle, isOpen }) => {
          to="payback"
          smooth={true}
          spy={true}
-         duration={1000}>
+         duration={900}
+         offset={-100}>
          배송상태 및 환불안내
          </Button1>
-         <Button1>배송 시간</Button1>
+         <Button1
+         to="Time"
+         smooth={true}
+         >배송 시간</Button1>
        </Description>
      );
  }
