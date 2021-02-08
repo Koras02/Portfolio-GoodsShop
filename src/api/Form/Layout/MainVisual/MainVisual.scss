@@ -47,17 +47,19 @@
     top:30px;
     overflow:hidden;
     @media screen and(max-width:1400px) {
-        width:500px;
- 
-        margin-left:260px;
+        background:red;
+        position:relative;
+        left:20%;
     }
-    @media screen and(max-width:960px) {
+    @media screen and(max-width:1200px) {
         width:500px;
-        margin-left:140px;
+        background:blue;
+        margin-left:300px;
     }
-    @media screen and(max-width:640px){
-        width:200px;
-        margin-left:20px;
+    @media screen and(max-width:1024px){
+        width:450px;
+        background:blue;
+        margin-left:250px;
     }
 }
 
@@ -73,7 +75,8 @@
 
 .pay2 {
     text-align:center;
-    margin-left:-250px;
+    position:relative;
+    left:-100px;
     font: 14px/24px arial;
     overflow:hidden;
 

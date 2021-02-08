@@ -20,7 +20,7 @@
     width:1200px;
     height:280px;
     margin:auto;
-    border:1px solid #000;
+
     position:absolute;
     left:50%;
     margin-left:-580px;
@@ -118,25 +118,23 @@
 }
  
 .Day {
-    width:100%;
-    border-bottom:1px solid #000;
-    margin-top:140px;
-    
+    width:1200px;
+    height:100vh;
+    margin-top:-18px;
+    border:1px solid #000;
+    background:red;
+    padding:0px;
 }
 
 .p {
     float:left;
     position:relative;
-    top:-159px;
-    padding:50px;
-    padding-top:52px;
-    padding-bottom:62px;
-    left:-1px;
-    font: 18px/24px arial;
-    border-right:1px solid #000;
+    top:-17px;
+    left:-172px;
     border-top:1px solid #000;
-    overflow: hidden;
-    background-color:rgb(194, 194, 194);
+    border-bottom:2px solid #000;
+    background:gray;
+    padding:55px;
 }
 
  
@@ -146,7 +144,7 @@
     position: absolute;
     overflow: hidden;
     left:30%;
-    top:55%;
+    top:56%;
    
 }
  
@@ -181,8 +179,7 @@
  .TimeForm2 {
     width:1400px;
     height:1200px;
-    margin:20px auto;
-    border:1px solid #000;
+    margin:40px auto;
     position:absolute;
     left:50%;
     margin-top:400px;
@@ -236,7 +233,7 @@
      height:100px;
      margin-top:-12px;
      border-right:1px solid #000;
-     border-top:1px solid #000;
+ 
      border-bottom:1px solid #000;
      text-align:center;
  }
