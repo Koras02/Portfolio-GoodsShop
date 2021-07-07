@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import img from './Pic/Cart.jpeg';
 import img2 from './Pic/download.jpeg';
+import {Link as LinkR} from 'react-router-dom';
 
 export const MenuWrapper = styled.div`
   width:100%;
@@ -11,18 +12,20 @@ export const MenuWrapper = styled.div`
 export const MenuWrapperBox = styled.div`
  
   padding:20px;
-  border:8px solid #000;
+ 
 
 `
-export const MenuWrapperH1 = styled.div`
-  margin-left:50px;
+export const MenuWrapperH1Links = styled(LinkR)`
+  margin-left:90px;
   margin-top:30%;
   display:inline;
-  padding:2px;
-  padding-bottom:40px;
+  padding:10px;
+  padding-bottom:30px;
   padding-top:40px;
+  padding-left:10px;
   font:bold 29px/24px arial;
   border-radius:100%;
+  text-decoration:none;
   background:#fff;
 
   &:hover {
@@ -42,3 +45,4 @@ export const MenuWrapperH1 = styled.div`
     color:#fff;
   }
   `;
+ 
