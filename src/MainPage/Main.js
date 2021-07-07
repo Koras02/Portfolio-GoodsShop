@@ -1,8 +1,13 @@
 import React from 'react';
+import Adware from './Ads/Adware';
+import { SliderData } from './Ads/SliderData';
+import BookK from './Book/BookK';
+import { bookObjOne } from './Book/Data';
+import Book from './CategoryPage/Book';
 import Header from './Header/Header'; 
 import MainVisual from './MainVisual/MainVisual';
 import MainVisualMenu from './MainVisualMenu/MainVisualMenu';
- 
+
 
 function Main() {
      return (
@@ -10,6 +15,9 @@ function Main() {
           <Header />
           <MainVisual />
           <MainVisualMenu />
+          <Book/>
+          <BookK {...bookObjOne}/>
+          <Adware slides={SliderData}/>
         </>
      );
  }
