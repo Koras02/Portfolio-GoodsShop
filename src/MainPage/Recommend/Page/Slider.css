@@ -1,0 +1,40 @@
+.image {
+    width: 200%;
+    height: 500px;
+    position: relative;
+    right:50%;
+    top:0px;
+};
+
+.right-arrow {
+    position:absolute;
+    left:50%;
+    right:32px;
+    font-size: 3rem;
+    color:#000;
+    z-index:10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position:absolute;
+    top:50%;
+    left:32px;
+    font-size: 3rem;
+    color:#000;
+    z-index:10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity:1;
+    transition-duration: 3s;
+    transform: rotate(1.08);
+}
